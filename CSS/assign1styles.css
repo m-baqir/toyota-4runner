@@ -1,0 +1,140 @@
+/*HTTP5104 Assignment 1 final css*/
+html{
+  box-sizing: border-box;
+}
+/*header*/
+header{
+  max-width: 1200px;
+  background-color: #659dbd;
+  padding-bottom: 3em;
+  margin: 0em;
+}
+header h1{
+  font-family: copperplate, rockwell;
+  margin: 0;
+}
+nav ul{
+  margin: 0;
+  list-style-type: none;
+  padding-left: 3em;
+  margin:0;
+  float:left;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+nav li{
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight:900;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+a{
+  text-decoration: none;
+}
+#pagecont{
+  max-width: 1200px;
+  margin:0px;
+  padding:0px;
+  display: inline-block;
+}
+/*main content*/
+main{
+  margin:0;
+  padding:0.5em;
+  max-width: 62.65%;
+  display: inline-block; 
+  background-color: #526e2a;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+  color: white;
+  }
+main h3{
+  margin: 0px;
+}
+main p{
+  font-size: 1.2em;
+}
+/*vehicle specs*/
+#stats{
+  float:left;
+  max-width: 18%;
+  display: inline-block;
+  font-size: 1.1em;
+  background-color: #fbeec1;
+}
+#stats ul{
+  list-style-type:square;
+  margin: 0em;
+  padding-left: 1em;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+#stats h3{
+  margin: 0px;
+  font-family: Tahoma, Verdana, Geneva;
+}
+/*aside other blogs*/
+#asideother{
+  float:right;
+  max-width: 18%;
+  display: inline-block;
+  font-size: 1.1em;
+  background-color: #fbeec1;
+}
+#asideother ul{
+  list-style-type: square;
+  margin: 0px;
+  padding-left: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+#asideother h3{
+  margin: 0px;
+  font-family: Tahoma, Verdana, Geneva;
+}
+/*comment form*/
+#commentf{
+  width: 100%;
+  text-align: center;
+  background-color: #526e2a;
+  color: white;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+#message{
+  margin-top: 0.5em;
+}
+#commentf button{
+  border-radius: 2em;
+  padding: 1em;
+}
+/*image gallery*/
+/*i looked up the code for the gallery from w3schools and modified it to suit my needs. source: https://www.w3schools.com/css/css_image_gallery.asp*/
+div.gallery {
+  margin: 0.5em;
+  border: 1px solid #ccc;
+  float: left;
+  width: 14em;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.descrip {
+  padding: 1em;
+  text-align:left;
+}
+/*footer*/
+footer{
+  max-width: 1200px;
+  background-color: #659dbd;
+  margin: 0px;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
